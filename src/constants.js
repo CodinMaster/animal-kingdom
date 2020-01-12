@@ -28,7 +28,12 @@ export const TERRITORIES = [
     id: 'tundra',
     name: 'Tundra',
     superpower: 'Let it snow!'
-  }
+  },
+  {
+   id: 'desert',
+   name: 'Desert',
+   superpower: 'Sand and Sand dunes!'
+ }
 ]
 
 export const ME_FILENAME = 'me.json'
@@ -37,7 +42,11 @@ export const EXPLORER_URL = 'https://explorer.blockstack.org'
 
 
 export const OTHER_KINGDOMS = [
-    {
+   {
+      "app": "https://animalkingdoms.netlify.com",
+      "ruler": "meepers.id.blockstack"
+   },
+   {
        "app": "https://animal-kingdom-1.firebaseapp.com",
        "ruler": "larry.id"
     },
